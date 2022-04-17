@@ -1,10 +1,16 @@
 const http = require('http');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 const Posts = require('./models/posts');
 const errorHandle = require('./errorHendle');
 const headers = require('./header');
 
-const DB = 'mongodb://localhost:27017/week2-team';
+dotenv.config({ path: './config.env' });
+
+const DB = process.env.DATABASE.replace(
+	'<password>',
+	process.env.DATABASE_PASSWARD
+);
 
 mongoose
 	.connect(DB)
