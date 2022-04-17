@@ -11,15 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:3005/posts",
-					"protocol": "http",
+					"raw": "https://stark-lake-13823.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"stark-lake-13823",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"posts"
 					]
@@ -42,15 +40,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:3005/posts",
-					"protocol": "http",
+					"raw": "https://stark-lake-13823.herokuapp.com/posts",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"stark-lake-13823",
+						"herokuapp",
+						"com"
 					],
-					"port": "3005",
 					"path": [
 						"posts"
 					]
@@ -60,4 +56,3 @@
 		}
 	]
 }
-
